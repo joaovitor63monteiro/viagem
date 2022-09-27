@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+
+<head>
+  <!-- Site Title-->
+  <title>Home</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css"
+    href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"> </script>
+		<![endif]-->
+</head>
+<nav>
+  <h2 class="titulo">3,2,1 VIAGENS
+    <i class="fas fa-plane" style="font-size:30px;color:rgb(12, 86, 111);"></i>
+  </h2>
+</nav>
+<body>
+  <!-- Page-->
+  <!-- Page Header-->
+  <header class="section page-header">
+    <!-- RD Navbar-->
+    <div class="rd-navbar-wrap rd-navbar-corporate">
+      <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+        data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fullwidth"
+        data-xl-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed"
+        data-xl-device-layout="rd-navbar-static" data-md-stick-up-offset="130px" data-lg-stick-up-offset="100px"
+        data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true"
+        data-xl-stick-up="true">
+        <div class="rd-navbar-collapse-toggle" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+      </nav>
+    </div>
+  </header>
+  <section class="section">
+    <div class="swiper-form-wrap">
+      <!-- Swiper-->
+      <div
+        class="swiper-container swiper-slider swiper-slider_height-1 swiper-align-left swiper-align-left-custom context-dark bg-gray-darker"
+        data-loop="false" data-autoplay="5500" data-simulate-touch="false" data-slide-effect="fade">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" data-slide-bg="images/viagem.jpg"></div>
+          <div class="swiper-slide" data-slide-bg="images/viagem2.jpg"></div>
+          <div class="swiper-slide" data-slide-bg="images/viagem.jpg"></div>
+        </div>
+      </div>
+      <!-- Swiper controls-->
+      <div class="swiper-pagination-wrap">
+        <div class="container container-bigger">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container-bigger form-request-wrap form-request-wrap-modern">
+        <div class="row row-fix justify-content-sm-center justify-content-lg-end">
+          <div class="col-lg-6 col-xxl-5">
+            <div class="form-request form-request-modern bg-gray-lighter novi-background">
+              <h4>Encontre seu destino</h4>
+              <!-- RD Mailform-->
+              <form class="rd-mailform form-fix">
+                <div class="row row-20 row-fix">
+                  <div class="col-sm-12">
+                    <label class="form-label-outside">CIDADE</label>
+                    <div class="form-wrap form-wrap-inline">
+                      <select class="form-input select-filter" data-placeholder="All"
+                        data-minimum-results-for-search="Infinity" name="city">
+                        <option value="1">Maceio</option>
+                        <option value="2">Sao paulo</option>
+                        <option value="3">Fernando de noronha</option>
+                        <option value="4">Belo Horizonte</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <label class="form-label-outside">HOTEL</label>
+                    <div class="form-wrap form-wrap-inline">
+                      <select class="form-input select-filter" data-placeholder="All"
+                        data-minimum-results-for-search="Infinity" name="city">
+                        <option value="1">Cabana Ibis</option>
+                        <option value="2">Pousada da Nandinha</option>
+                        <option value="3">Cabana Desbrava</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <label class="form-label-outside">VALOR</label>
+                    <div class="form-wrap form-wrap-inline">
+                      <select class="form-input select-filter" data-placeholder="All"
+                        data-minimum-results-for-search="Infinity" name="city">
+                        <option value="1">R$200,00</option>
+                        <option value="2">R$150,00</option>
+                        <option value="3">R$180,00</option>
+                        <option value="4">R$225,00</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-wrap form-button">
+                  <button class="button button-block button-secondary" type="submit">Buscar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  </div>
+  <!-- Global Mailform Output-->
+  <div class="snackbars" id="form-output-global"> </div>
+  <!-- Javascript-->
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+  <!-- coded by barber-->
+</body>
+
+</html>
